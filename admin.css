@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Set a consistent font for the entire document */
+    background-color: #f8f9fa; /* Light background color for the body */
+}
+
+/* Header styles */
+.header {
+    background-color: aqua; /* Header background color */
+    line-height: 70px; /* Center text vertically in header */
+    padding-left: 30px; /* Padding for left side of header */
+    position: fixed; /* Keep header fixed at the top */
+    width: 100%; /* Make header full width */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Link styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Logout button style */
+.logout {
+    float: right; /* Float logout button to the right */
+    padding-right: 30px; /* Right padding */
+}
+
+/* Sidebar styles */
+ul {
+    list-style: none; /* Remove default list styling */
+    background-color: #6f6d6d; /* Sidebar background color */
+    width: 15%; /* Set width of sidebar */
+    height: 100%; /* Full height of the page */
+    padding-top: 5%; /* Padding at the top */
+    padding-right: 20px; /* Padding on the right */
+    position: fixed; /* Keep sidebar fixed */
+    text-align: center; /* Center text within the sidebar */
+    top: 70px; /* Position below the header */
+}
+
+ul li {
+    font-size: 20px; /* Font size for sidebar items */
+    padding: 15px 0; /* Vertical padding for sidebar items */
+}
+
+ul li a {
+    color: white; /* Text color for links */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+ul li a:hover {
+    color: skyblue; /* Hover color for links */
+    font-weight: normal; /* Normal weight on hover */
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    ul {
+        width: 100%; /* Make sidebar full width on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+        position: relative; /* Change positioning to relative */
+    }
+
+    .header {
+        padding-left: 10px; /* Reduce left padding for smaller screens */
+    }
+
+    ul li {
+        font-size: 18px; /* Smaller font size for sidebar items */
+    }
+}
