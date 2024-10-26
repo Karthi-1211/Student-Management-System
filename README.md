@@ -17,10 +17,6 @@ A comprehensive **Student Management System** built using **PHP** with **SQL** a
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Overview
@@ -86,8 +82,9 @@ The main page showcases:
    git clone https://github.com/your-username/student-management-system.git
 
 ## Screenshots
+![Main Page](https://github.com/Karthi-1211/Student-Management-System/blob/main/Screenshot%202024-10-26%20211045.png?raw=true)
 ![Admin Dashboard](https://github.com/Karthi-1211/Student-Management-System/blob/main/Screenshot%202024-10-26%20211130.png?raw=true)
 ![Student Dashboard](https://github.com/Karthi-1211/Student-Management-System/blob/main/Screenshot%202024-10-26%20211205.png?raw=true)
 ![Teacher Dashboard](https://github.com/Karthi-1211/Student-Management-System/blob/main/Screenshot%202024-10-26%20211228.png?raw=true)
-![Main Page](https://github.com/Karthi-1211/Student-Management-System/blob/main/Screenshot%202024-10-26%20211045.png?raw=true)
+
 
